@@ -176,3 +176,9 @@ footer a:hover { color: var(--fg); }
   .hero-grid { grid-template-columns: minmax(0, 1fr); }
   .hero-art { display: none; }
 }
+.game.crack { --c: #b7a4ff; }
+.game.legion { --c: #a6d36f; }
+.game.star { --c: #9fb4ff; }
+.doc .card.crack { --c: #b7a4ff; }
+.doc .card.legion { --c: #a6d36f; }
+.doc .card.star { --c: #9fb4ff; }
