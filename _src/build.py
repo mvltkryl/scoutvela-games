@@ -5,6 +5,7 @@ head = src.split('<main>')[0]
 foot = '<footer>' + src.split('<footer>')[1]
 pages = {
   'privacy.html': ('Privacy Policy · ScoutVela Games', 'Privacy policy for Donut Destroyer, Strategic Rescue Operation and Block Isles by ScoutVela Games.'),
+  'terms.html': ('Terms of Service · ScoutVela Games', 'Terms of Service for all games by ScoutVela Games.'),
   'support.html': ('Support · ScoutVela Games', 'Player support and account deletion for ScoutVela Games.'),
 }
 for name, (title, desc) in pages.items():
